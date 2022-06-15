@@ -1,9 +1,9 @@
-# Discrete Event Simulation Example
+# 수정 권한은 원작자의 허락을 받았습니다. Apache 2.0 license를 따릅니다. 원작자는 davitto (사)에 있음을 알립니다.
+고려대학교 물류시스템설계 수업에서 한진컨테이너터미널의 최적 크레인 댓수를 정하기 위해서 파이썬 시뮬레이션 코드를 수정하였습니다.
+원코드는 README.md와 같은 경로에, 수정된 코드는 logistics_IMEN파일에 있습니다.
 
-This repository contains both the Python logic for running
-simulations as well as the HTML5 canvas-based visualization.
+수정사항은 다음과 같습니다
 
-The standalone Python simulation can be found in `simpy example.py`,
-and the HTML visualization logic is contained in `visualize.html`
-and `visualize.ts`. Running `tsc` will compile the Typescript and
-output `visualize.js`.
+1) 그림 수정
+2) 반환값을 컨테이너 쌓인 정도, 처리 시간 등등으로 변경
+3) 그래프의 시간 time interval을 변화시킴
